@@ -31,7 +31,7 @@
                                 {{edge.node.title}}
                             </h3>
                             <p class="post-meta">Posted by
-                                <a href="#">{{edge.node.created_by.firstname + edge.node.created_by.lastname}}</a>
+                                <a href="#">{{'望春'}}</a>
                                 on {{format(edge.node.created_at)}}
                             </p>
                         </g-link>
@@ -99,11 +99,6 @@ node {
 id
 title
 content
-created_by {
-id
-firstname
-lastname
-}
 created_at
 tags {
 title

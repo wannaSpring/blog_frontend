@@ -15,7 +15,7 @@
                             <h1>{{$page.post.title}}</h1>
                             <h2 class="subheading">{{$page.post.title}}</h2>
                             <span class="meta">Posted by
-              <a href="#">{{$page.post.created_by.firstname + $page.post.created_by.lastname}}</a>
+              <a href="#">{{"望春"}}</a>
               on {{moment($page.post.created_at)}}</span>
                         </div>
                     </div>
@@ -43,11 +43,6 @@
     id
     title
     content
-    created_by{
-    id
-    firstname
-    lastname
-    }
     tags {
     title
     }
